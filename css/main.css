@@ -77,7 +77,6 @@ a:hover {
 }
 .fa-location-arrow{
     position: relative;
-    left: -9px;
     top: 2px;
 }
 .call, .address{
@@ -142,30 +141,29 @@ a:hover {
 }
 
 
-    /*Slaider*/
-slider{
+
+    /*MAIN CONTENT*/
+main{
 }
-.wrapper{
+.slider{
     background-color: #000;
     position: relative;
 }
-.wrapper img{
-    opacity: 0.76;
-    width: 84%;
-    height: auto;
-}
 .menu{
+    position: relative;
     background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    height: 100px;
 }
 .mobile-menu{
     display: none;
 }
 .navigation{
-    position: absolute;
     opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
-    top: 0;
 }
 nav{
     float: left;
@@ -198,4 +196,87 @@ nav li a:hover{
 .title-block{
     background-color: #000;
     height: 798px;
+}
+
+.slider-item{
+    height: 600px;
+    background: url("../img/layer-41.png") no-repeat center right;
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.arrows{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size:80px;
+    z-index: 99;
+}
+.arrow-right{
+    right:20px;
+}
+.arrow-left{
+    left: 20px;
+}
+.slider-content-text{
+    padding-top:210px;
+}
+.slider-content-text h2{
+    color: #bd2631;
+    font-size:30px;
+}
+.slider-content-text h1{
+    color: #fff;
+    font-size:40px;
+}
+.slider-content-text p{
+    font-size:28px;
+    color: #fff;
+}
+
+    /*QUOTE*/
+.main-quote{
+    height:auto;
+    background-color: #bd2631;
+}
+.main-quote-container{
+    max-width: 80.7%;
+    margin:0 auto;
+    height:129px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-quote-text h2{
+    color: #ffffff;
+    font-family: Hind;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.main-quote-text h3{
+    color: #ffffff;
+    font-family: Hind;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.main-quote-button{
+    background-color: #ffffff;
+}
+.main-quote-button button{
+    padding: 9px 29px 9px 30px;
+}
+.main-quote-button a{
+    color: #000000;
+    font-family: Hind;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px
 }

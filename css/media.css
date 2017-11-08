@@ -1,25 +1,126 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-    
+@media only screen and (max-width : 1060px) {
+    .info-block{
+        height:130px;
+    }
+    .country{
+        width: 100px;
+        float: none;
+
+    }
+    .call, .address{
+        float: none;
+        padding: 10px 0 0 0;
+    }
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    .subtitle-block{
+        float: none;
+        text-align: center;
+    }
+    .slider-content-text h1{
+        font-size:30px;
+    }
+    .slider-content-text p{
+        font-size:20px;
+    }
+    .main-quote-text h2{
+        font-size: 23px;
+    }
+    .main-quote-text h3{
+        font-size:18px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    
+    .slider-content-text{
+        margin-left: 40px;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .main-quote-container{
+        max-width: 90%;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .main-quote-button button {
+         padding: 5px 20px ;
+     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+	.info-block{
+        height: 160px;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .menu{
+        height: 60px;
+    }
+    .mobile-menu{
+        display: block;
+        color: #fff;
+        font-size: 26px;
+    }
+    .contact-block{
+        width:50%;
+    }
+    .slider-content-text h2{
+        font-size:20px;
+    }
+    .slider-content-text h1{
+        font-size:24px;
+    }
+    .slider-content-text p{
+        font-size:16px;
+    }
+    .slider-item{
+        background: url(../img/layer-41.png) no-repeat center;
+    }
+    .main-quote-text h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .main-quote-text h3{
+        font-size:16px;
+        text-align: center;
+    }
+    .main-quote-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+    .contact-block{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+	.contact-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
-
+@media only screen and (max-width : 350px) {
+    .call, .address{
+        font-size:13px;
+    }
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	
