@@ -1,6 +1,37 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1160px) {
+    .product-item, .product-bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-item-center{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .item-bg, .item-bg2, .item-bg3{
+        width:100%;
+    }
+    .item-43, .item-101, .item-106{
+        margin:0 auto;
+        width: auto;
+    }
+    .trash{
+        width:50%;
+    }
+    .item-36, .item-52{
+        margin:0 auto;
+        width: auto;
+    }
+    .product-title h2, .battery{
+        font-size:40px;
+        margin-right:0;
+    }
+    .product-title p{
+        font-size:24px;
+    }
+}
 @media only screen and (max-width : 1060px) {
     .info-block{
         height:130px;
@@ -53,6 +84,14 @@
     .main-quote-button button {
          padding: 5px 20px ;
      }
+    /*.item-43, .item-101, .item-106{*/
+        /*margin: 0 auto 0 50px;*/
+        /*width: 40%;*/
+    /*}*/
+    /*.item-36, .item-52, .trash{*/
+        /*margin: 0 auto 0 50px;*/
+        /*width: 40%;*/
+    /*}*/
 }
 
 /* Small Devices, Tablets */
@@ -84,7 +123,7 @@
         font-size:16px;
     }
     .slider-item{
-        background: url(../img/layer-41.png) no-repeat center;
+        background: url(../img/img2.png) no-repeat center;
     }
     .main-quote-text h2{
         font-size: 20px;
@@ -99,6 +138,17 @@
         flex-direction: column;
         justify-content: space-around;
         height: 200px;
+    }
+    .item-36, .item-52, .trash{
+        width: 100%;
+        height: 250px;
+    }
+    .product-title h2, .battery{
+        font-size:32px;
+        margin-right:0;
+    }
+    .product-title p{
+        font-size:18px;
     }
 }
 
@@ -119,6 +169,13 @@
 @media only screen and (max-width : 350px) {
     .call, .address{
         font-size:13px;
+    }
+    .product-title h2, .battery{
+        font-size:24px;
+        margin-right:0;
+    }
+    .product-title p{
+        font-size:16px;
     }
 }
 /* Custom, iPhone Retina */
